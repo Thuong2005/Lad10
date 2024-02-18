@@ -1,0 +1,49 @@
+.container{
+    background-color: aqua;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient();
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+.container.title{
+    font-size:30px ;
+    font-weight:boild ;
+    color: blueviolet;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group{
+    margin: 10px 10px ;
+}
+
+.form-control{
+    width: 95%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-control:forcus{
+    background-color: yellow;
+    box-shadow: 0 0 5px red;
+
+}
+
+.form-button{
+    
+    box-shadow: 0 0 5px orangered;
+    width:90px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow:inset 0 0 5px orangered ;
+}
+
+.form-button:disabled{
+   background-color:burlywood ;
+    box-shadow: inset 0 0 5px burlywood;
+}
